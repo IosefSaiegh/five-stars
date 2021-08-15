@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+body{
+   background: #444;
+}
+.grande{
+   font-size: 35px;
+   font-family: 'Style Script', cursive;
+}
+.gallery{
+   padding: 25px;
+}
+.tarjeta{
+   margin: 10px;
+}
+.blanco{
+   color: white;
+}
+.fila{
+   justify-content: center;
+}
+.centrar{
+   justify-content: center;
+   display: flex;
+}
+.imagen-series{
+   width: 380px;
+   padding: 0px;
+   border-radius: 5px;
+   overflow: hidden;
+   object-fit: cover;
+   margin: 10px;
+}
+.imagen-series:hover{
+   width: 410px;
+   transition: 500ms;
+   border: 1px solid #fff;
+}
+.link{
+   font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+/*
+.links-menu{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 32px;
+   padding-bottom: 10px;
+} */
