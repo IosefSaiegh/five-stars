@@ -8,6 +8,12 @@ body{
    font-size: 35px;
    font-family: 'Style Script', cursive;
 }
+.fotos-arriba{
+   margin: 20px;
+}
+.imagen-slider{
+   border-radius: 10px;
+}
 .gallery{
    padding: 25px;
 }
@@ -32,6 +38,7 @@ body{
    object-fit: cover;
    margin: 10px;
 }
+
 .imagen-series:hover{
    width: 410px;
    transition: 500ms;
