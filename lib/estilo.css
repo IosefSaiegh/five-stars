@@ -40,15 +40,31 @@ body{
 }
 
 .imagen-series:hover{
-   width: 410px;
+   width: 400px;
    transition: 500ms;
    border: 1px solid #fff;
+   text-align: center;
+   
 }
 .link{
    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 .title-section{
    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+.tarjeta-video{
+   padding: 0px;
+   width: 410px;
+}
+.volver{
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.volver-atras-series{
+   color: #fff;
+}
+.volver-atras-series:hover{
+   color: rgba(255, 255, 255, 0.863);
 }
 /*
 .links-menu{
