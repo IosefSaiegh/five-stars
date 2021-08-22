@@ -66,6 +66,9 @@ body{
 .volver-atras-series:hover{
    color: rgba(255, 255, 255, 0.863);
 }
+.mc-field-group input{
+   border-radius: 50px 50px;
+}
 /*
 .links-menu{
    padding-left: 10px;
