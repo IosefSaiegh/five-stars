@@ -66,8 +66,10 @@ body{
 .volver-atras-series:hover{
    color: rgba(255, 255, 255, 0.863);
 }
-.mc-field-group input{
-   border-radius: 50px 50px;
+
+.fuente-y-negro{
+   font-family: 'Atkinson Hyperlegible', sans-serif;
+   color: #fff;
 }
 /*
 .links-menu{
