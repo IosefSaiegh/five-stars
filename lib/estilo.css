@@ -71,6 +71,10 @@ body{
    font-family: 'Atkinson Hyperlegible', sans-serif;
    color: #fff;
 }
+.susc-input{
+   font-family: 'Atkinson Hyperlegible', sans-serif;
+   background: transparent;
+}
 /*
 .links-menu{
    padding-left: 10px;
