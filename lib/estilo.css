@@ -16,15 +16,18 @@ body{
 }
 .gallery{
    padding: 25px;
+   text-align: center;
 }
 .tarjeta{
    margin: 10px;
 }
 .blanco{
    color: white;
+   font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 .fila{
    justify-content: center;
+   text-align: center;
 }
 .centrar{
    justify-content: center;
@@ -36,7 +39,7 @@ body{
    border-radius: 5px;
    overflow: hidden;
    object-fit: cover;
-   margin: 10px;
+   margin: 7px;
 }
 
 .imagen-series:hover{
@@ -44,7 +47,6 @@ body{
    transition: 500ms;
    border: 1px solid #fff;
    text-align: center;
-   
 }
 .link{
    font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -52,10 +54,10 @@ body{
 .title-section{
    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
-.tarjeta-video{
+/* .tarjeta-video{
    padding: 0px;
    width: 410px;
-}
+} */
 .volver{
    padding-top: 10px;
    padding-left: 10px;
@@ -71,14 +73,13 @@ body{
    font-family: 'Atkinson Hyperlegible', sans-serif;
    color: #fff;
 }
+
 .susc-input{
    font-family: 'Atkinson Hyperlegible', sans-serif;
    background: transparent;
 }
-/*
-.links-menu{
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-top: 32px;
-   padding-bottom: 10px;
-} */
+
+.boton-ver-mas{
+   width: 125px;
+   text-align: center;
+}
