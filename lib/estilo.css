@@ -3,6 +3,7 @@
 
 body{
    background: #444;
+   
 }
 .grande{
    font-size: 35px;
@@ -17,6 +18,7 @@ body{
 .gallery{
    padding: 25px;
    text-align: center;
+   
 }
 .tarjeta{
    margin: 10px;
@@ -27,7 +29,6 @@ body{
 }
 .fila{
    justify-content: center;
-   text-align: center;
 }
 .centrar{
    justify-content: center;
@@ -57,11 +58,11 @@ body{
 /* .tarjeta-video{
    padding: 0px;
    width: 410px;
-} */
+} 
 .volver{
    padding-top: 10px;
    padding-left: 10px;
-}
+} */
 .volver-atras-series{
    color: #fff;
 }
@@ -82,4 +83,10 @@ body{
 .boton-ver-mas{
    width: 125px;
    text-align: center;
+}
+section{
+   width: 1200px;
+}
+.principal{
+   margin: 25px;
 }
