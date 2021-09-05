@@ -90,3 +90,7 @@ body{
 .principal{
    margin: 25px;
 }
+.temporadas{
+   gap: 20px;
+   justify-content: center;
+}
