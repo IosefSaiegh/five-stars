@@ -24,6 +24,10 @@ body{
 .tarjeta{
    margin: 10px;
 }
+.episodio{
+   background: transparent;
+   color: #fff;
+}
 .blanco{
    color: white;
    font-family: 'Josefin Sans', sans-serif;
