@@ -4,7 +4,40 @@
 
 body{
    background: #444;
-   
+}
+.splash{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   background: #444;
+   z-index: 200;
+   color: white;
+   text-align: center;
+   line-height: 90vh;
+}
+.splash.diplay-none{
+   position: fixed;
+   opacity: 0;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   background: #444;
+   z-index: -10;
+   color: white;
+   text-align: center;
+   line-height: 90vh;
+}
+@keyframes fadeIn{
+   to{
+      opacity: 1;
+   }
+}
+.fade-in{
+   opacity: 0;
+   animation: fadeIn 1s ease-in forwards;
 }
 .grande{
    font-size: 35px;
@@ -99,3 +132,7 @@ body{
    gap: 20px;
    justify-content: center;
 }
+/* .imagen-nf{
+   display: flex;
+   justify-content: center;
+} */

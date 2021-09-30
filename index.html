@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/plugins/animate.css" />
   <!-- Estilos de los recursos adicionales -->
   <link href="/fontawesome/css/all.css" rel="stylesheet">
-  <script data-cfasync="false">
+  <!-- <script data-cfasync="false">
     (function (r, e, E, m, b) {
       E[r] = E[r] || {}; E[r][b] = E[r][b] || function () {
         (E[r].q = E[r].q || []).push(arguments)
@@ -21,13 +21,30 @@
       m.async = 1; m.src = ("file:" == location.protocol ? "https:" : "") + "//s.reembed.com/G-1gxG3A.js";
       b.parentNode.insertBefore(m, b)
     })("reEmbed", "script", window, document, "api");
-  </script>
+    const splash = document.querySelector('.splash');
 
+    document.addEventListener('DOMContentLoaded', (e) => {
+      setTimeout(() => {
+        splash.classList.add('display-none');
+
+      }, 2000);
+    })
+  </script> -->
+  <script>
+    const splash = document.getElementsByClassName('splash');
+    document.addEventListener('DOMContentLoaded', (e) => {
+      setTimeout(() => {
+        splash.classList.add('display-none');
+      }, 2000);
+    });
+  </script>
 </head>
 
 <body>
+  <!-- <div class="splash">
+    <h1 class="fade-in">Five Stars</h1>
+  </div> -->
   <header>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand grande animate__animated animate__flip" href="/">Five Stars</a>
