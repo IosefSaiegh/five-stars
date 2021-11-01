@@ -42,6 +42,7 @@ body{
 .grande{
    font-size: 35px;
    font-family: 'Style Script', cursive;
+   color: #ff0000;
 }
 .fotos-arriba{
    margin: 20px;
@@ -60,10 +61,12 @@ body{
 .episodio{
    background: transparent;
    color: #fff;
+   border: #fff;
 }
 .blanco{
    color: white;
    font-family: 'Josefin Sans', sans-serif;
+   text-align: center;
 }
 .fila{
    justify-content: center;
@@ -71,9 +74,10 @@ body{
 .centrar{
    justify-content: center;
    display: flex;
+   vertical-align: middle;
 }
 .imagen-series{
-   width: 380px;
+   width: 30%;
    padding: 0px;
    border-radius: 5px;
    overflow: hidden;
@@ -82,27 +86,41 @@ body{
 }
 
 .imagen-series:hover{
-   width: 400px;
+   width: 35%;
    transition: 500ms;
+   /* transition-delay: 0s;
+   transition-duration: 1.2s;
+   transition-property: all;
+   transition-timing-function: ease; */
    border: 1px solid #fff;
    text-align: center;
 }
 .link{
    font-family: 'Josefin Sans', sans-serif;
 }
+.link:hover{
+   transition: 500ms;
+   border-top: 1px solid #000;
+   border-bottom: 1px solid #000;
+}
 .title-section{
    font-family: 'Josefin Sans', sans-serif;
+   /* text-align: center; */
 }
-/* .tarjeta-video{
+ /* .tarjeta-video{
    padding: 0px;
-   width: 410px;
-} 
-.volver{
+   width: 80%;
+}  */
+/*.volver{
    padding-top: 10px;
    padding-left: 10px;
 } */
 .volver-atras-series{
    color: #fff;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   gap: 2.5px;
 }
 .volver-atras-series:hover{
    color: rgba(255, 255, 255, 0.863);
@@ -136,3 +154,17 @@ body{
    display: flex;
    justify-content: center;
 } */
+.video {
+   margin: 20px;
+   width: 80%;
+   text-align: center;
+   height: 70;
+}
+.cuerpovid{
+   text-align: center;
+}
+@media (max-width: 620px){
+  .imagen-series{
+     width: 80%;
+  }
+}

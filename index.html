@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" dir="ltr">
 
 <head>
   <meta charset="utf-8" />
   <title>Five Stars | Inicio</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-
+  <meta name="description"
+    content="Five Stars es una empresa de videos animados populares como Policias y Ladrones, Carreras, El que sueña vive, etc.">
+  <link rel="icon" type="image/png" href="/src/img/iconpage.png">
   <!-- Estilos de la master -->
   <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/lib/estilo.css" />
   <link rel="stylesheet" href="/plugins/animate.css" />
+  <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
   <!-- Estilos de los recursos adicionales -->
   <link href="/fontawesome/css/all.css" rel="stylesheet">
   <!-- <script data-cfasync="false">
@@ -31,7 +33,7 @@
     })
   </script> -->
   <script>
-    const splash = document.getElementsByClassName('splash');
+    const splash = document.querySelector('.splash');
     document.addEventListener('DOMContentLoaded', (e) => {
       setTimeout(() => {
         splash.classList.add('display-none');
@@ -47,7 +49,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand grande animate__animated animate__flip" href="/">Five Stars</a>
+        <a class="navbar-brand grande animate__animated animate__flip centrar" href="/">Five Stars</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,7 +57,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link link active" aria-current="page" href="/">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link link" href="/noticias/">Noticias</a>
@@ -113,7 +115,7 @@
   </section>
   <section id="gallery" class="gallery">
     <a class="text-decoration-none" href="/series/">
-      <h2 class="blanco title-section">Todas Las Series</h2>
+      <h2 class="title-section fuente-y-negro h2">Todas Las Series</h2>
     </a>
     <div>
       <a href="/series/policias-y-ladrones/" class="tarjeta-video">
@@ -156,6 +158,7 @@
     </div>
   </section>
   <section class="form-suscription">
+    <h2 class="title-section fuente-y-negro h2 centrar">Suscribirse al Newsletter</h2>
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
     <div id="mc_embed_signup">
@@ -163,7 +166,6 @@
         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
         novalidate>
         <div id="mc_embed_signup_scroll">
-          <p class="title-section fuente-y-negro h2">Suscribirse al Newsletter</p>
           <div class="mc-field-group">
             <label for="mce-FNAME" class="fuente-y-negro">Nombre</label>
             <input type="text" value="" name="FNAME" class="form-control susc-input" id="mce-FNAME">
@@ -186,8 +188,8 @@
         </div>
       </form>
     </div>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script type='text/javascript'>(function ($) {
+    <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script>(function ($) {
         window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; /*
        * Translated default messages for the $ validation plugin.
        * Locale: ES
