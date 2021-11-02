@@ -152,7 +152,6 @@ body{
 .temporadas{
    gap: 20px;
    justify-content: center;
-   display: inline-flex;
 }
 /* .imagen-nf{
    display: flex;
