@@ -87,7 +87,7 @@ body{
 }
 
 .imagen-series:hover{
-   width: 35%;
+   width: 33%;
    transition: 500ms;
    /* transition-delay: 0s;
    transition-duration: 1.2s;

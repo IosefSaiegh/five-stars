@@ -23,29 +23,23 @@
       m.async = 1; m.src = ("file:" == location.protocol ? "https:" : "") + "//s.reembed.com/G-1gxG3A.js";
       b.parentNode.insertBefore(m, b)
     })("reEmbed", "script", window, document, "api");
-    const splash = document.querySelector('.splash');
 
-    document.addEventListener('DOMContentLoaded', (e) => {
-      setTimeout(() => {
-        splash.classList.add('display-none');
-
-      }, 2000);
-    })
   </script> -->
-  <script>
-    const splash = document.querySelector('.splash');
-    document.addEventListener('DOMContentLoaded', (e) => {
-      setTimeout(() => {
-        splash.classList.add('display-none');
-      }, 2000);
-    });
+  <script data-cfasync="false">
+    (function (r, e, E, m, b) {
+      E[r] = E[r] || {}; E[r][b] = E[r][b] || function () {
+        (E[r].q = E[r].q || []).push(arguments)
+      }; b = m.getElementsByTagName(e)[0]; m = m.createElement(e);
+      m.async = 1; m.src = ("file:" == location.protocol ? "https:" : "") + "//s.reembed.com/G-1gxG3A.js";
+      b.parentNode.insertBefore(m, b)
+    })("reEmbed", "script", window, document, "api");
   </script>
 </head>
 
 <body>
   <!-- <div class="splash">
-    <h1 class="fade-in">Five Stars</h1>
-  </div> -->
+          <h1 class="fade-in">Five Stars</h1>
+        </div> -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -84,22 +78,27 @@
   </header>
 
 
-  <!-- Editar desde aquí  -->
+
   <section class="slider fotos-arriba">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active ">
-          <img src="/src/img/imagenplaceholder.jpg" class="d-block mx-auto w-50 imagen-slider"
+          <img src="https://firebasestorage.googleapis.com/v0/b/five-stars-ea6af.appspot.com/o/posters-series%2Fpolicias.png?alt=media&token=ea86086e-2256-42d0-9cde-8ddd9ada4b0d" class="d-block mx-auto w-50 imagen-slider"
             alt="/src/img/imagenplaceholder.jpg">
         </div>
         <div class="carousel-item ">
-          <img src="/src/img/imagenplaceholder.jpg" class="d-block mx-auto w-50 imagen-slider"
+          <img src="https://firebasestorage.googleapis.com/v0/b/five-stars-ea6af.appspot.com/o/posters-series%2Fsuena-vive.png?alt=media&token=71e84f3f-d370-4702-aeb2-92e8654bea77" class="d-block mx-auto w-50 imagen-slider"
             alt="/src/img/imagenplaceholder.jpg">
         </div>
         <div class="carousel-item ">
-          <img src="/src/img/imagenplaceholder.jpg" class="d-block mx-auto w-50 imagen-slider"
+          <img src="https://firebasestorage.googleapis.com/v0/b/five-stars-ea6af.appspot.com/o/posters-series%2Fantimal.png?alt=media&token=fa84cc94-8361-49a3-95a8-bba632ccaaff" class="d-block mx-auto w-50 imagen-slider"
             alt="/src/img/imagenplaceholder.jpg">
         </div>
+        <div class="carousel-item ">
+          <img src="https://firebasestorage.googleapis.com/v0/b/five-stars-ea6af.appspot.com/o/posters-series%2Funicornios.png?alt=media&token=f6a81869-88c6-410a-a662-70b687d01b29" class="d-block mx-auto w-50 imagen-slider"
+            alt="/src/img/imagenplaceholder.jpg">
+        </div>
+        
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="prev">
@@ -148,13 +147,12 @@
           src="https://firebasestorage.googleapis.com/v0/b/five-stars-ea6af.appspot.com/o/posters-series%2Fsuena-vive.png?alt=media&token=71e84f3f-d370-4702-aeb2-92e8654bea77"
           class="imagen-series" alt="el que sueña vive.jpg">
       </a>
+
       <a class="btn btn-secondary boton-ver-mas text-center" href="/series/">
         <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
         Ver Mas
       </a>
-      <!-- <a href="/series/turistas/" class="tarjeta-video">
-        <img src="https://firebasestorage.googleapis.com/v0/b/five-stars-ea6af.appspot.com/o/posters-series%2Fturistas.png?alt=media&token=caf3cd0c-6bd5-4264-959d-4c0589b8b65c" class="imagen-series" alt="turistas.jpg">
-      </a> -->
+
     </div>
   </section>
   <section class="form-suscription">
@@ -191,9 +189,9 @@
     <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script>(function ($) {
         window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; /*
-       * Translated default messages for the $ validation plugin.
-       * Locale: ES
-       */
+        * Translated default messages for the $ validation plugin.
+        * Locale: ES
+        */
         $.extend($.validator.messages, {
           required: "Este campo es obligatorio.",
           remote: "Por favor, rellena este campo.",
