@@ -167,4 +167,7 @@ body{
   .imagen-series{
      width: 80%;
   }
+  .imagen-series:hover{
+     width: 87%;
+  }
 }
