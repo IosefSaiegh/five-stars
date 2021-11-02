@@ -83,6 +83,7 @@ body{
    overflow: hidden;
    object-fit: cover;
    margin: 7px;
+   color: #444;
 }
 
 .imagen-series:hover{
@@ -107,10 +108,12 @@ body{
    font-family: 'Josefin Sans', sans-serif;
    /* text-align: center; */
 }
- /* .tarjeta-video{
-   padding: 0px;
-   width: 80%;
-}  */
+ .tarjeta-video{
+   color: #444;
+} 
+ .tarjeta-video:hover{
+   color: #444;
+} 
 /*.volver{
    padding-top: 10px;
    padding-left: 10px;
